@@ -27,7 +27,7 @@ namespace ExerFixCap05
                 conbancaria = new Conta(conta, nome);
             }
 
-            Console.WriteLine($"\nDados da conta: " + conbancaria);
+            Console.WriteLine($"\nDados da cona: " + conbancaria);
 
             Console.Write("\nEntre com um valr para deposito: ");
             double vldeposito = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
